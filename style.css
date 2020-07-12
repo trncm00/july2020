@@ -51,6 +51,18 @@
 	color: #ffffff;
 }
 
+article{
+    width:50%;
+    height:30%;
+}
+
+aside{
+    width:25%;
+    height:35%;
+    float:left;
+    margin-right: 30px;
+    
+}
 
 #hero1 
 {
