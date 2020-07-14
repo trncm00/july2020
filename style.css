@@ -26,6 +26,8 @@
 .background1{
 	background: #DCC48E;
 	color: #ffffff;
+    opacity: 100%;
+
 }
 
 article{
@@ -37,8 +39,8 @@ article{
 }
 
 aside{
-    width:30%;
-    height:35%;
+    max-width:30%;
+    max-height:35%;
     float:left;
     margin-right: 15px;
     margin-left:15px;
@@ -46,8 +48,8 @@ aside{
     
 }
 aside:hover{
-    width:30%;
-    height:50%;
+    max-width:30%;
+    max-height:50%;
     font-size: 3vh;
     display:flex;
     
@@ -58,7 +60,9 @@ aside:hover{
 
 	}
 
-
+a{
+    color: #ffffff;
+}
 
 body{
 	font-family:monospace;
@@ -74,6 +78,7 @@ main{
 
 #navbar{
 	padding:1rem;
+    
 	background-image: linear-gradient(40deg, #27233a 30%, #dcc48e   50%, #b3c0a4 72% );
  
 
