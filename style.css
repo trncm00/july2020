@@ -26,7 +26,18 @@
 
 
 @media (min-width:600px)
-{{}}
+{
+    
+    aside:hover {
+    max-width:30%;
+    max-height:50%;
+    font-size: 3vh;
+    display:flex;
+    }
+
+
+
+}
 
 
 .description{
@@ -37,7 +48,7 @@
 	font-family: serif;
 	font-size: 5vh;
 	letter-spacing: 2px;
-    text-align: left;
+    text-align: 
 
 }
 
@@ -106,7 +117,7 @@ main{
 #navbar{
 	padding:1rem;
     
-	background-image: linear-gradient(40deg, #27233a 30%, #dcc48e   50%, #b3c0a4 72% );
+	background-image: linear-gradient(40deg, #27233a 30%, #dcc48e 50%, #b3c0a4 72% );
  
 
 }
